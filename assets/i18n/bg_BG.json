@@ -35,7 +35,7 @@
     "applicationItem": {
         "patchButton": "Модифицирай",
         "infoButton": "Информация",
-        "changelogLabel": "Списък с промените"
+        "changelogLabel": "Списък с промени"
     },
     "latestCommitCard": {
         "loadingLabel": "Зареждане...",
@@ -46,8 +46,8 @@
     },
     "patcherView": {
         "widgetTitle": "Модификатор",
-        "patchButton": "Модифицирай",
-        "patchDialogText": "Избрали сте модификация за ресурси и разделен APK пакет, което може да доведе до грешки при пачването.\nСигурни ли сте, че искате да продължите?"
+        "patchButton": "Модифицирайте",
+        "patchDialogText": "Избрали сте модификация за ресурси и използвате разделен (split) APK файл, което може да доведе до грешки при модифицирането.\nСигурни ли сте, че искате да продължите?"
     },
     "appSelectorCard": {
         "widgetTitle": "Изберете приложение",
@@ -55,7 +55,7 @@
         "widgetSubtitle": "Няма избрано приложение",
         "noAppsLabel": "Няма намерени приложения",
         "currentVersion": "Текуща",
-        "recommendedVersion": "Препоръчана",
+        "recommendedVersion": "Препоръчано",
         "anyVersion": "всяка"
     },
     "patchSelectorCard": {
@@ -79,12 +79,15 @@
         "searchBarHint": "Търсене на модификации",
         "doneButton": "Готово",
         "recommended": "Препоръчано",
+        "recommendedTooltip": "Избрери всички препоръчани модификации",
         "all": "Всички",
-        "none": "Нито един",
+        "allTooltip": "Избрери всички модификации",
+        "none": "Нито една",
+        "noneTooltip": "Отмяна на всички модификации",
         "loadPatchesSelection": "Заредете избраните модификации",
         "noSavedPatches": "Няма запазени модификации за избраното приложение.\nНатиснете Готово за да запазите текущия избор.",
         "noPatchesFound": "Няма налични модификации за избраното приложение",
-        "selectAllPatchesWarningContent": "Напът сте да изберете всички патчове, дори и тези, които не са препоръчителни, а това може да доведе до нежелани промени."
+        "selectAllPatchesWarningContent": "На път сте да изберете всички модификации, включително и тези, които не се препоръчват и това може да доведе до нежелано поведение."
     },
     "patchItem": {
         "unsupportedDialogText": "Изборът на тази модификация може да доведе до грешки.\n\nВерсия: {packageVersion}\nПоддържани версии: {supportedVersions}",
@@ -115,7 +118,7 @@
         "advancedSectionTitle": "Разширени",
         "logsSectionTitle": "Логове",
         "darkThemeLabel": "Тъмен режим",
-        "darkThemeHint": "Добре дошъл на тъмната страна",
+        "darkThemeHint": "Добре дошли на тъмната страна",
         "dynamicThemeLabel": "Материална Тема",
         "dynamicThemeHint": "Насладете се на преживяване по-близо до устройството си",
         "languageLabel": "Език",
@@ -138,15 +141,13 @@
         "apiURLHint": "Конфигурирайте собствен API URL",
         "selectApiURL": "API URL",
         "experimentalUniversalPatchesLabel": "Поддръжка на експериментални модификации",
-        "experimentalUniversalPatchesHint": "Показване на всички приложения за използване с универсални модификации, зареждането на списъкът с приложения може да е по-бавно",
+        "experimentalUniversalPatchesHint": "Показване на всички приложения за използване с универсални модификации, зареждането на списъка с приложения може да е по-бавно",
         "experimentalPatchesLabel": "Поддръжка на експериментални модификации",
         "experimentalPatchesHint": "Разрешете използването на неподдържани модификации във всяка версия на приложението",
         "enabledExperimentalPatches": "Поддръжката на експериментални модификации е активирана",
         "exportSectionTitle": "Импортиране и експортиране",
         "aboutLabel": "Относно",
         "snackbarMessage": "Копирано",
-        "sentryLabel": "Sentry логване",
-        "sentryHint": "Пращайте анонимни логове за да ни помогнете да подобрим ReVanced Manager",
         "restartAppForChanges": "Рестартирайте приложението, за да се приложат промените",
         "deleteKeystoreLabel": "Изтриване на keystore",
         "deleteKeystoreHint": "Изтриване на keystore използван за подписване на приложението",
@@ -191,7 +192,7 @@
     },
     "contributorsView": {
         "widgetTitle": "Хора, които допринесоха",
-        "patcherContributors": "Допринесли към пачърът",
+        "patcherContributors": "Допринесли към модификациите",
         "patchesContributors": "Допринесли към модификациите",
         "integrationsContributors": "Допринесли към интеграциите",
         "cliContributors": "Допринесли към CLI",
